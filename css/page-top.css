@@ -1,0 +1,30 @@
+#page-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#header {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+.return-page-top a {
+  display: block;
+  position: fixed;
+  z-index: 99;
+  bottom: 5rem;
+  right: 5rem;
+  width: 7rem;
+  height: 5rem;
+  background-image: url(../images/ページトップへ.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.sns a {
+  color: black;
+}
